@@ -404,3 +404,117 @@ h5::after{
 .fix{
 margin-top: 450px;
 }
+.paal{
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Arial', serif;
+  margin-bottom: 200px;
+  position: absolute;
+  color: #418036;
+}
+h7{
+  font-size: 30px;
+  font-family: 'Arial', serif;
+  margin-bottom: 30px;
+  position: relative;
+}
+h7::after{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: #57984C;
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: 'Arial';
+}
+h8{
+  font-size: 30px;
+  font-family: 'Arial', serif;
+  margin-bottom: 30px;
+  position: relative;
+  color: #418036;
+}
+h8::after{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: #57984C;
+  content: "x x x x x x";
+  text-align: center;
+  font-size: 18px;
+  margin-top: -115px;
+  font-family: 'Arial'; 
+}
+.blocc{
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: red;
+}
+.text_blooc{
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: black;
+}
+.blocc>img{
+  width: 310px;
+  height: 310px;
+}
+.text_blloc{
+  margin-top: -100px;
+  text-align: center;
+}
+.text_blloc>p{
+  width: 450px;
+  align-content: center;
+}
+.text_foott{
+  margin-top: -40px;
+  position: absolute;
+  border: none; 
+}
+.spisok>ul{
+  display: flex;    
+  gap: 20px;  
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+}
+h9{
+  font-size: 20px;
+  font-family: 'Arial', serif;
+  margin-bottom: 100px;
+  position: relative;
+  color: #418036;
+}
+h9::after{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: #57984C;
+  font-size: 18px;
+  margin-top: 100px;
+  font-family: 'Arial'; 
+}
+.text .had{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #57984c;
+  margin-top: 30px;
+}
+.text hr{
+  width: 183px;
+  background-color: #57984c;
+  margin-bottom: 24px;
+  height: 2px;
+}
+.fot .two{
+  position: absolute;
+  right:0;
+}
+.li_sp{
+  display: list-item;
+}
