@@ -518,3 +518,42 @@ h9::after{
 .li_sp{
   display: list-item;
 }
+h10{
+  font-size: 30px;
+  font-family: 'Arial', serif;
+  margin-bottom: -30px;
+  position: relative;
+  text-align: left;
+}
+h10::after{
+  text-align: left;
+  content: "x x x x x x";
+  display: block;
+  font-size: 14px;
+  font-family: 'Arial';
+  color: #418036;
+}
+.contact{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+h11{
+  font-size: 20px;
+  font-family: 'Arial', serif;
+  margin-bottom: 120px;
+  position: relative;
+  color: #418036;
+}
+h11::after{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: #57984C;
+  font-size: 18px;
+  margin-top: 100px;
+  font-family: 'Arial'; 
+}
+.cn_t{
+text-align: center;
+background-color: #FFFFFF;
+}
