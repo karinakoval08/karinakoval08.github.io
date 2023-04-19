@@ -146,7 +146,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   background-color: #e5e5e5;
-  background-image: url("./img/Union-tomato.png");
+  background-image: url("Union-tomato.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -210,7 +210,7 @@ img {
   border-style: none;
 }
 .bg-content {
-  background-image: url(./img/Union.png);
+  background-image: url(Union.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
