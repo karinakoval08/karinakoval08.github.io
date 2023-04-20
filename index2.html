@@ -20,6 +20,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0"
     />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8"></script>
+    <script src="main.js"></script>
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="responsive.css">
   </head>
@@ -47,11 +49,11 @@
           </div>
         </div>
       </div>
-<img style="width: 100%; height: 480px"  src="image 7.png" />
+<img style="width: 100%; height: 480px"  src="34.jpg" />
       
       <div class="middle-all">
         <div class="textBlock">
-          <h4>Agridera Fresh Market Tomato Hybrids</h4>
+          <h4>Kiwi Fresh Market</h4>
           <img style="width: 35px; height: 35px" src="cross.svg" />
           <p>
             Agridera aims to be one of the world's leading companies in the
@@ -121,82 +123,69 @@
             Agridera operates through international and local distributers
             around the world.
           </div>
-          <div class="tomatos-block">
-            <figure id="tomato">
-              <div>
-                <p>
-                  TAG 1000 (TAG 853)<br />
-                  Tomato Determinate Red Standard Round
-                </p>
-                <img src="tomato-1.svg" />
+          <div class="kiwiList col-md-12">
+            <div class="row">
+              <div class="kiwiItem col-md-4" v-if="products" v-for="p in products">
+                <div class="col-md-12">
+                  <div class="kiwiImg">
+                    <img src="1.jpg" alt="">
+                  </div>
+                  <div class="kiwiInfo">
+                    <b style="font-size: 20px; line-height: 28px;">TAG 1000 (TAG 853)</b>
+                    <br>
+                    Kiwi Green Standard Round
+                  </div>
+                </div>
               </div>
-            </figure>
-            <figure id="tomato">
-              <div>
-                <p>
-                  TAG 1000 (TAG 853)<br />
-                  Tomato Determinate Red Standard Round
-                </p>
-                <img src="tomato-2.svg" />
+              <div class="kiwiItem col-md-4" v-if="products" v-for="p in products">
+                <div class="col-md-12">
+                  <div class="kiwiImg">
+                    <img src="2.jpg" alt="">
+                  </div>
+                  <div class="kiwiInfo">
+                    <b style="font-size: 20px; line-height: 28px;">TAG 1000 (TAG 853)</b>
+                    <br>
+                    Kiwi Green Standard Round
+                  </div>
+                </div>
               </div>
-            </figure>
-            <figure id="tomato">
-              <div>
-                <a style="color: #57984c" href="index1.html">
-                  <p>
-                    TAG 1000 (TAG 853)<br />
-                    Tomato Determinate Red Standard Round
-                  </p>
-                  <img src="tomato-3.svg" />
-                </a>
+              <div class="kiwiItem col-md-4" v-if="products" v-for="p in products">
+                <div class="col-md-12">
+                  <div class="kiwiImg">
+                    <img src="3.jpg" alt="">
+                  </div>
+                  <div class="kiwiInfo">
+                    <b style="font-size: 20px; line-height: 28px;">TAG 1000 (TAG 853)</b>
+                    <br>
+                    Kiwi Green Standard Round
+                  </div>
+                </div>
               </div>
-            </figure>
-            <figure id="tomato">
-              <div>
-                <p>
-                  TAG 1000 (TAG 853)<br />Tomato Determinate Red Standard Round
-                </p>
-                <img src="tomato-4.svg" />
+              <div class="kiwiItem col-md-4" v-if="products" v-for="p in products">
+                <div class="col-md-12">
+                  <div class="kiwiImg">
+                    <img src="4.jpg" alt="">
+                  </div>
+                  <div class="kiwiInfo">
+                    <b style="font-size: 20px; line-height: 28px;">TAG 1000 (TAG 853)</b>
+                    <br>
+                    Kiwi Green Standard Round
+                  </div>
+                </div>
               </div>
-            </figure>
-            <figure id="tomato">
-              <div>
-                <p>
-                  TAG 1000 (TAG 853)<br />
-                  Tomato Determinate Red Standard Round
-                </p>
-                <img src="tomato-5.svg" />
+              <div class="kiwiItem col-md-4" v-if="products" v-for="p in products">
+                <div class="col-md-12">
+                  <div class="kiwiImg">
+                    <img src="5.jpg" alt="">
+                  </div>
+                  <div class="kiwiInfo">
+                    <b style="font-size: 20px; line-height: 28px;">TAG 1000 (TAG 853)</b>
+                    <br>
+                    Kiwi Green Standard Round
+                  </div>
+                </div>
               </div>
-            </figure>
-            <figure id="tomato">
-              <div>
-                <p>
-                  TAG 1000 (TAG 853)<br />
-                  Tomato Determinate Red Standard Round
-                </p>
-                <img src="tomato-6.svg" />
-              </div>
-            </figure>
-            <figure id="tomato">
-              <div>
-                <p>
-                  TAG 1000 (TAG 853)<br />
-                  Tomato Determinate Red Standard Round
-                </p>
-                <img src="tomato-7.svg" />
-              </div>
-            </figure>
-            <figure id="tomato">
-              <div>
-                <p>
-                  TAG 1000 (TAG 853)<br />
-                  Tomato Determinate Red Standard Round
-                </p>
-                <img src="tomato-8.svg" />
-              </div>
-            </figure>
-          </div>
-        </div>
+            </div>
       </div>
       <footer>
         <div id="footer_first">
