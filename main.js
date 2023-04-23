@@ -13,6 +13,28 @@ mounted: function(){
 methods: {
     addItem:function(id){
     window.localStorage.setItem('prod', id);
+    }
+    
+},
+product: [],
+btnVisible: false,
+cart: [],
+contactFields: [],
+order: 0,
+},
+mounted: function () {
+this.getProduct();
+},
+methods: {
+    getProduct: function () {
+        if(window.location.hash){
+            var id = window.location.hash.replace("#", "");
+            if(this.products && this.products.length>0){      
+      for (i in this.products) {
+        if (this.products[i] && this.products[i].id && id==this.products[i].id) this.products=this.products[i];
+      }
+    }
 }
-}
-})
+    }
+}   
+)
